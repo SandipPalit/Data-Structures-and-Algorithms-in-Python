@@ -32,24 +32,3 @@
 ### Getters and Setters
 * Getters and Setters are used in Data Hiding to hide the private members from direct access.
 * We also use getters & setters to add validation logic around getting and setting a value.
-
-### Inheritance
-* Inheritance is the capability of one class to derive or inherit the properties from another class.
-* Child class can access the attributes of parent class, but parent class cannot access the attributes of child class.
-* The type of the reference variable determines what attributes can be access.
-* super().__ init__() is used to call parent constructor.
-
-### Polymorphism
-* Polymorphism means to be in multiple forms or multiple ways to represent.
-* Polymorphism can be Compile-time polymorphism or Runtime polymorphism.
-* Compile time polymorphism or Static polymorphism is achieved via method overloading.
-* Method Overloading means a method is having same name but different type, ordering of type, argument or return type. Eg: Multiple Constructors.
-* Python does not support Method Overloading.
-* Runtime polymorphism or dynamic polymorphism is achieved by method overriding.
-* Method Overriding means that the child class has the exact same method as the parent class, depending on object type.
-
-### Encapsulation (yet to be implemented)
-* Encapsulation is the idea of wrapping data and the methods that work on data within one unit (class).
-
-### Abstraction (yet to be implemented)
-* Abstraction is the property by virtue of which only the essential details are displayed to the user and hiding the unnecessary details.
