@@ -1,4 +1,4 @@
-##Observations
+## Observations
 
 ### Singular Linked List
 * The Node contains Value and Next (a link to next node).
@@ -28,16 +28,16 @@
 * Here we will take two pointers, one pointer will be slow (traverse 1 node at a time) and another pointer will be fast (traverse 2 node at a time).
 * The logic behind this cycle detection is, if in a circular track two person run at different speed, then the person who is running fast will overtake the person who is running slow at some point.
 
-###Merge Sort
+### Merge Sort
 * Recursively divides the array till it contains only one element.
 * Then merges the sub-parts in a sorted manner.
 * Here we are passing the head node in every function, not the entire linked list.
 
-###Bubble sort
+### Bubble sort
 * After every iteration, we get the next maximum or minimum.
 * The order of duplicate elements are maintained.
 * Here we are passing the head node in every function, not the entire linked list.
 
-###Reversal of Linked List
+### Reversal of Linked List
 * In the in-place reversal of Linked List, we used the 3 pointer method.
 * We can also perform this using Recursion, but the recursion-stack will take some extra space.
